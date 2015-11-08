@@ -16,7 +16,7 @@ public class WelcomeController implements Controller {
 		// TODO Auto-generated method stub
 		logger.info("Returning hello view");
 
-        return new ModelAndView("hello.jsp");
+        return new ModelAndView("welcome.jsp");
 		
 	}
 	
